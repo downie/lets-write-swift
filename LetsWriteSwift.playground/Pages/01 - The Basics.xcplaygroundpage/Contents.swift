@@ -4,7 +4,6 @@
  Swift is a strongly typed language. Let's check it out!
  
  */
-
 /*:
  ## Basic Types & Type Safety
  Variables declared with `var` can, well, vary. Variables declare with `let` can't change
@@ -18,7 +17,6 @@ print(greeting)
 let result = "War, war never changes."
 //result = "War changed." // Cannot assign to value: 'result' is a 'let' constant
 
-
 /*:
  That was stongly typed, but the types were all inferred by the compiler. You can be explicit about types, and use
  Optionals when there's a chance something can be nil
@@ -30,7 +28,6 @@ var sometimesString: String? = "Hello, playground"
 sometimesString = nil
 //alwaysString = nil // Nil cannot be assigned to type `String`
 
-
 /*:
  There are a bunch of other types provided by `Foundation`. While the implementations vary across platforms, their
  interface doesn't, so you can write cross-platform Swift.
@@ -41,7 +38,6 @@ let words = "every word with a space".split(separator: " ") // [String.SubSequen
 var array: [Int] = [1, 2]
 array.append(contentsOf: [3, 4, 5])
 let enteredText = readLine() ?? "None"
-
 
 /*:
  ## Structs
@@ -107,7 +103,7 @@ enum NumberFaction: Int {
 }
 var rival = NumberFaction(rawValue: 2) // .legion
 rival = .raiders
-
+rival?.rawValue
 
 /*:
  ## Functions
@@ -119,10 +115,11 @@ func costToFastTravel(to placeName: String) -> Int {
     }
     return 10
 }
-costToFastTravel(to: "Hoover Dam") // 10
+costToFastTravel(to: "Hoover Dam")
 
 //: Functions are a type, and can be passed as data
 let cost: (String) -> Int = costToFastTravel
 
-cost("CAMP") // 0
+cost("CAMP")
+
 //: [Next](@next)

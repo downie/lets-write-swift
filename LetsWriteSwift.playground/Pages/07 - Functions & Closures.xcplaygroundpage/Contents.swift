@@ -2,7 +2,7 @@
 /*:
  # Functions and closures
  */
-
+import Foundation
 //: Functions are declared with func and named parameters
 func sayHello() {
     print("hello")
