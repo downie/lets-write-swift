@@ -3,7 +3,8 @@
  
  # Modern Features
  ## Generics
- Generics let you use dependant types as a variable.
+ Generics let you abstract away a dependent type, so you can provide general implementations that are still type-safe
+ when used.
  */
 class PriorityQueue<Type> {
     private var queue = [Type]()
@@ -16,7 +17,7 @@ class PriorityQueue<Type> {
 }
 
 let intQueue = PriorityQueue<Int>()
-intQueue.push(element: 100)
+intQueue.push(element: 100) 
 let stringQueue = PriorityQueue<String>()
 stringQueue.push(element: "100")
 

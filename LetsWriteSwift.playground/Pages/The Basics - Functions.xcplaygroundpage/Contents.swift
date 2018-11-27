@@ -3,7 +3,12 @@
  
  # The Basics
  ## Functions
- So far, it's all been code snippets. Let's wrap those up in some functions
+ Most of what we've seen here has been code snippets. Let's look at how we wrap bits of code in functions.
+ 
+ Functions have:
+   - a name
+   - a list of arguments, with an external and an internal name
+   - a return type (after `->`)
  */
 func costToFastTravel(to placeName: String) -> Int {
     if placeName == "CAMP" {

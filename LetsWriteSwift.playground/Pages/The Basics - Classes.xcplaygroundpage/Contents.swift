@@ -3,7 +3,8 @@
  
  # The Basics
  ## Classes
- Classes are pass-by-reference objects. This is more what you'd expeect if you're familiar with Object-Oriented programming.
+ Classes are pass-by-reference objects. This is more what you'd expect if you're familiar with Object-Oriented
+ programming, where changes to one object are visible in multiple parts of the code.
  */
 class Inventory {
     var items: [String]

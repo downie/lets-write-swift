@@ -3,7 +3,8 @@
  
  # The Basics
  ## Structs
- Structs are pass-by-value objects. They're generally preferred because side effects are obvious
+ Structs are pass-by-value objects. They're generally preferred to minimize shared & mutable state throughout your
+ app. They also synthesize their own initializers to make using them even easier.
  */
 struct Quest {
     let name: String

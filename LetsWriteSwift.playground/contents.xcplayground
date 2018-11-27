@@ -13,6 +13,10 @@
         <page name='Modern Features - Extensions'/>
         <page name='Modern Features - Error Handling'/>
         <page name='Modern Features - Generics'/>
-        <page name='03 - Fun Stuff'/>
+        <page name='Fun Stuff'/>
+        <page name='Fun Stuff - Associated Values'/>
+        <page name='Fun Stuff - Pattern Matching'/>
+        <page name='Fun Stuff - Conditional Extensions'/>
+        <page name='Fun Stuff - Protocol Defaults'/>
     </pages>
 </playground>

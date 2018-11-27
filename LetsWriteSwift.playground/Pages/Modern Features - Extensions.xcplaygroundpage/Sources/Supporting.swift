@@ -1,11 +1,6 @@
 import Foundation
 
-protocol Edible {
-    var healthRestored: Double { get }
-    func eat()
-}
-
-struct NukaCola: Edible {
+public struct NukaCola {
     var healthRestored: Double
     func eat() {}
 }

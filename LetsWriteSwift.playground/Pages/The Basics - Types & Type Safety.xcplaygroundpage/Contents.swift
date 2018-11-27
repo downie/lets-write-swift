@@ -35,8 +35,8 @@ sometimesString = nil
 let positive: Bool = true
 let sum: Int = 4 + 3
 let words = "every word with a space".split(separator: " ") // [String.SubSequence], basically [String]
-var array: [Int] = [1, 2]
-array.append(contentsOf: [3, 4, 5])
+var array: [Character] = ["H", "I"]
+array.append(contentsOf: ["A", "B", "C"])
 let enteredText = readLine() ?? "None"
 
 //: [Next](@next)
