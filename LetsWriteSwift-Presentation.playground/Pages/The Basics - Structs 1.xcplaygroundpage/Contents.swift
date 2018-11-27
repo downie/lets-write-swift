@@ -1,4 +1,3 @@
-//: [Previous](@previous)
 struct Quest {
     let name: String
     let experienceReward: Int

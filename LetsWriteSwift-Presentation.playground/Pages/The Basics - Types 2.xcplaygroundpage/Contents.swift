@@ -1,4 +1,3 @@
-//: [Previous](@previous)
 var alwaysString: String = "Hello, playground"
 var sometimesString: String? = "Hello, playground"
 

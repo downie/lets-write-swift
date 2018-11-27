@@ -1,11 +1,3 @@
-/*:
- [Previous](@previous)
- 
- # Fun Stuff
- ## Protocol Defaults
- If you're defining a protocol, you can also define the default implementation to your protocol to make its adoption
- even easier
- */
 protocol Buildable {
     var buildCost: Int { get }
     func canBuild(at: Position) -> Bool
@@ -24,6 +16,5 @@ struct WoodFloor: Buildable {
         print("Built it for \(buildCost)")
     }
 }
-
 
 //: [Next](@next)

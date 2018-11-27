@@ -1,4 +1,3 @@
-//: [Previous](@previous)
 enum NumberFaction: Int {
     case newCaliforniaRepublic = 0
     case raiders, legion

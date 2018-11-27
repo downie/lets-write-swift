@@ -1,4 +1,3 @@
-//:[Previous](@previous)
 enum Faction {
     case newCaliforniaRepublic, raiders, legion
 }

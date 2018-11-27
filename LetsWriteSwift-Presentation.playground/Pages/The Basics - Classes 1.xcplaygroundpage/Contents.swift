@@ -1,4 +1,3 @@
-//: [Previous](@previous)
 class Inventory {
     var items: [String]
     let maxWeight: Double = 200

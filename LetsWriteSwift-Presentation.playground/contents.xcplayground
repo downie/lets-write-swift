@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
     <pages>
         <page name='The Basics'/>
         <page name='The Basics - Types 1'/>
@@ -16,14 +16,26 @@
         <page name='The Basics - Functions 1'/>
         <page name='The Basics - Functions 2'/>
         <page name='Modern Features'/>
-        <page name='Modern Features - Closures'/>
-        <page name='Modern Features - Protocols'/>
-        <page name='Modern Features - Extensions'/>
-        <page name='Modern Features - Error Handling'/>
-        <page name='Modern Features - Generics'/>
+        <page name='Modern Features - Closures 1'/>
+        <page name='Modern Features - Closures 2'/>
+        <page name='Modern Features - Closures 3'/>
+        <page name='Modern Features - Closures 4'/>
+        <page name='Modern Features - Closures 5'/>
+        <page name='Modern Features - Closures 6'/>
+        <page name='Modern Features - Protocols 1'/>
+        <page name='Modern Features - Protocols 2'/>
+        <page name='Modern Features - Extensions 1'/>
+        <page name='Modern Features - Extensions 2'/>
+        <page name='Modern Features - Error Handling 1'/>
+        <page name='Modern Features - Error Handling 2'/>
+        <page name='Modern Features - Error Handling 3'/>
+        <page name='Modern Features - Generics 1'/>
+        <page name='Modern Features - Generics 2'/>
         <page name='Fun Stuff'/>
         <page name='Fun Stuff - Associated Values'/>
-        <page name='Fun Stuff - Pattern Matching'/>
+        <page name='Fun Stuff - Pattern Matching 1'/>
+        <page name='Fun Stuff - Pattern Matching 2'/>
+        <page name='Fun Stuff - Pattern Matching 3'/>
         <page name='Fun Stuff - Conditional Extensions'/>
         <page name='Fun Stuff - Protocol Defaults'/>
     </pages>
