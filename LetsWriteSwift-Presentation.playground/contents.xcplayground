@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
+    <pages>
+        <page name='The Basics'/>
+        <page name='The Basics - Types 1'/>
+        <page name='The Basics - Types 2'/>
+        <page name='The Basics - Types 3'/>
+        <page name='The Basics - Structs'/>
+        <page name='The Basics - Classes'/>
+        <page name='The Basics - Enums'/>
+        <page name='The Basics - Functions'/>
+        <page name='Modern Features'/>
+        <page name='Modern Features - Closures'/>
+        <page name='Modern Features - Protocols'/>
+        <page name='Modern Features - Extensions'/>
+        <page name='Modern Features - Error Handling'/>
+        <page name='Modern Features - Generics'/>
+        <page name='Fun Stuff'/>
+        <page name='Fun Stuff - Associated Values'/>
+        <page name='Fun Stuff - Pattern Matching'/>
+        <page name='Fun Stuff - Conditional Extensions'/>
+        <page name='Fun Stuff - Protocol Defaults'/>
+    </pages>
+</playground>
