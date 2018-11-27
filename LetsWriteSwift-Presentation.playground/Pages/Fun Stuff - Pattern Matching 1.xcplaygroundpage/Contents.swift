@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# Fun Stuff
+//:## Pattern Matching
 let httpCode = 200
 switch httpCode {
 case 100..<200:
@@ -9,10 +12,3 @@ case 200..<300:
 default:
     print("We got some other code")
 }
-
-//: When you're pattern matching, you can also deconstruct the associated types
-
-
-//: You can also do pattern matching inside an if condition
-
-//: [Next](@next)

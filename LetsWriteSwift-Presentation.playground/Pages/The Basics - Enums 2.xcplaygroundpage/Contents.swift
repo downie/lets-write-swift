@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# The Basics
+//:## Enums
 enum NumberFaction: Int {
     case newCaliforniaRepublic = 0
     case raiders, legion
@@ -5,4 +8,3 @@ enum NumberFaction: Int {
 var rival = NumberFaction(rawValue: 2)
 rival = .raiders
 rival?.rawValue
-//: [Next](@next)

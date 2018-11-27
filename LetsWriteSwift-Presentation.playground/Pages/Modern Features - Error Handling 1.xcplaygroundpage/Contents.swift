@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# Modern Features
+//:## Error Handling
 enum ExampleError: Error {
     case impossible
 }
@@ -8,4 +11,3 @@ func divide(_ x: Int, by y: Int) throws -> Double {
     }
     return Double(x) / Double(y)
 }
-//: [Next](@next)

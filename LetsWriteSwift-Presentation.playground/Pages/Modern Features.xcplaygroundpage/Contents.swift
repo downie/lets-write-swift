@@ -1,8 +1,6 @@
 /*:
- [Previous](@previous)
+ [Next](@next)
  
  # Modern Features
  Check out these newer techniques
- 
- [Next](@next)
  */

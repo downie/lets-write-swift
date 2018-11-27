@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# The Basics
+//:## Classes
 myInventory.currentWeight = 5.5
 vendorInventory.currentWeight = 5.5
 
@@ -6,4 +9,3 @@ vendorInventory.currentWeight = 5.5
 
 myInventory.items.append("Fancy Lad Snack Cakes")
 vendorInventory.items.append("Beer")
-//: [Next](@next)

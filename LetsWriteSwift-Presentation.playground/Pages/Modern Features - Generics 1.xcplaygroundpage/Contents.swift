@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# Modern Features
+//:## Generics
 class PriorityQueue<Type> {
     private var queue = [Type]()
     func push(element: Type) {
@@ -7,4 +10,3 @@ class PriorityQueue<Type> {
         return queue.popLast()
     }
 }
-//: [Next](@next)

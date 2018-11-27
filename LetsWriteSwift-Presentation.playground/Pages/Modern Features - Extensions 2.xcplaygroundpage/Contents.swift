@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# Modern Features
+//:## Extensions
 extension String {
     var dots: String {
         return (0..<self.count).map { _ -> String in
@@ -7,4 +10,3 @@ extension String {
 }
 
 let dottedString = "hello".dots
-//: [Next](@next)

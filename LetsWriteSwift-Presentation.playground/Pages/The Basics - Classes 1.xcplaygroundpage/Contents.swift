@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# The Basics
+//:## Classes
 class Inventory {
     var items: [String]
     let maxWeight: Double = 200
@@ -10,4 +13,3 @@ class Inventory {
 
 let myInventory = Inventory(withItems: ["Purified Water"])
 var vendorInventory = Inventory(withItems: ["NukaCola"])
-//: [Next](@next)

@@ -1,3 +1,6 @@
+//: [Next](@next)
+//:# Fun Stuff
+//:## Pattern Matching
 switch query() {
 case .success(let result) where result.count < 3:
     print("Success with a short string: \(result)")
@@ -6,4 +9,3 @@ case .success(let result):
 case .failure:
     print("We've failed, but ignore the error")
 }
-//: [Next](@next)
