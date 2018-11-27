@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
-        <page name='01 - The Basics'/>
-        <page name='02 - Modern Features'/>
-        <page name='07 - Functions &amp; Closures'/>
-        <page name='06 - Control Structure'/>
-        <page name='04 - Protocols'/>
-        <page name='05 - Generics'/>
-        <page name='08 - Extensions'/>
+        <page name='The Basics'/>
+        <page name='The Basics - Types &amp; Type Safety'/>
+        <page name='The Basics - Structs'/>
+        <page name='The Basics - Classes'/>
+        <page name='The Basics - Enums'/>
+        <page name='The Basics - Functions'/>
+        <page name='Modern Features'/>
+        <page name='Modern Features - Closures'/>
+        <page name='Modern Features - Protocols'/>
+        <page name='Modern Features - Extensions'/>
+        <page name='Modern Features - Error Handling'/>
+        <page name='Modern Features - Generics'/>
+        <page name='03 - Fun Stuff'/>
     </pages>
 </playground>
