@@ -4,4 +4,4 @@
 enum Faction {
     case newCaliforniaRepublic, raiders, legion
 }
-let alliance = Faction.newCaliforniaRepublic
+let alliance: Faction = .newCaliforniaRepublic

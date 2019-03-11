@@ -9,3 +9,10 @@ vendorInventory.currentWeight = 5.5
 
 myInventory.items.append("Fancy Lad Snack Cakes")
 vendorInventory.items.append("Beer")
+
+let constArray = [4]
+var changeArray = [5]
+
+changeArray = constArray
+changeArray.append(6)
+constArray
