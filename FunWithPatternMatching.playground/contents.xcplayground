@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='false'>
     <pages>
         <page name='Intro'/>
         <page name='Basics - Enums'/>
         <page name='Basics - Ranges'/>
         <page name='Intermediate - Custom Matcher'/>
         <page name='Intermediate - Custom Matcher 2'/>
+        <page name='Intermediate - Custom Matcher 2.5'/>
         <page name='Intermediate - Custom Matcher 3'/>
         <page name='Intermediate - Custom Matcher 4'/>
         <page name='Intermediate - Where Clauses'/>

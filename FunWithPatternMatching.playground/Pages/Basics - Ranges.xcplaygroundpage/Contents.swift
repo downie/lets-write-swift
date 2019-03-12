@@ -1,7 +1,6 @@
 //: [Next](@next)
 //:# Fun with Pattern Matching
 //:## Matching Ranges
-let httpStatusCode = 404
 switch httpStatusCode {
 case 100..<200:
     print("We got a 1xx code")
