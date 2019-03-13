@@ -2,7 +2,7 @@
 //:## Matching Color-ish?
 import UIKit
 
-let color = UIColor.blue
+let color = UIColor.red
 
 switch color {
 case .greenish:

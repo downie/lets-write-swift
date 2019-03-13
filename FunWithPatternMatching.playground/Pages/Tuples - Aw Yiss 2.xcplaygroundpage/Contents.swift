@@ -5,12 +5,12 @@ import Foundation
 switch (state, data, response, error) {
 case let (
     .loading,
-    _,
+    .some(data),
     response as HTTPURLResponse,
-    .some(error)
+    _
 ) where (500...599).contains(response.statusCode):
     
-    print("While we were loading, we got an authentication error: \(error)")
+    print("While we were loading, we got an authentication error with: \(data)")
 
 default:
     print("A wild state has appeared!")
