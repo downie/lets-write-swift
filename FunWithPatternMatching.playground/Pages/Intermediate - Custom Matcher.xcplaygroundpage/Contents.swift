@@ -1,6 +1,5 @@
 //: [Next](@next)
-//:# Fun with Pattern Matching
-//:## Custom Matches
+//:## Matching Color-ish?
 import UIKit
 
 enum Colorish {

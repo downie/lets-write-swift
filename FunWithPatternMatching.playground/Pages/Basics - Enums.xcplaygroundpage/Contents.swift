@@ -1,5 +1,4 @@
 //: [Next](@next)
-//:# Fun with Pattern Matching
 //:## Matching Enums
 switch state {
 case .created:

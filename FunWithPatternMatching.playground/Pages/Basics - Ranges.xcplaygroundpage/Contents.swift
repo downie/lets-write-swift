@@ -1,5 +1,4 @@
 //: [Next](@next)
-//:# Fun with Pattern Matching
 //:## Matching Ranges
 switch httpStatusCode {
 case 100..<200:

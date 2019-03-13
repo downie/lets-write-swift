@@ -1,6 +1,5 @@
 //: [Next](@next)
-//:# Fun with Pattern Matching
-//:## Custom Matches
+//:## Matching Color-ish?
 import UIKit
 
 func ~=(pattern: Colorish, value: UIColor) -> Bool {
@@ -9,7 +8,7 @@ func ~=(pattern: Colorish, value: UIColor) -> Bool {
 
 switch color {
 case .greenish:
-    print("It's kinda red")
+    print("It's kinda green")
 default:
     print("This color cannot be described")
 }

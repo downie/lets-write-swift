@@ -1,7 +1,6 @@
-//: [Next](@next)
 import UIKit
-func ~=(pattern: Colorish, value: UIColor) -> Bool {
-    // Get each color component
+
+public func ~=(pattern: Colorish, value: UIColor) -> Bool {
     guard let components = value.cgColor.components else {
         return false
     }
@@ -10,9 +9,8 @@ func ~=(pattern: Colorish, value: UIColor) -> Bool {
     }
     let redValue = components[0]
     let greenValue = components[1]
-    let blueValue = components[2]
+    let blueValue = components[2];
     
-    // See if the strongest color component matches our color-ish
     switch pattern {
     case .reddish:
         return max(redValue, greenValue, blueValue) == redValue
