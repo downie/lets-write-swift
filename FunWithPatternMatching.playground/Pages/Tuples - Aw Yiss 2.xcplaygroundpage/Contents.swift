@@ -8,10 +8,11 @@ case let (
     .some(data),
     response as HTTPURLResponse,
     _
-) where (500...599).contains(response.statusCode):
+) where (400...499).contains(response.statusCode):
     
     print("While we were loading, we got an authentication error with: \(data)")
 
 default:
     print("A wild state has appeared!")
 }
+
