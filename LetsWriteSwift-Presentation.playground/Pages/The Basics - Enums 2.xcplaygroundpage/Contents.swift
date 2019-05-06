@@ -5,6 +5,9 @@ enum NumberFaction: Int {
     case newCaliforniaRepublic = 0
     case raiders, legion
 }
-var rival = NumberFaction(rawValue: 2)
+let rival = NumberFaction(rawValue: 78)
+if let newVar = rival {
+    newVar
+}
 rival = .raiders
 rival?.rawValue

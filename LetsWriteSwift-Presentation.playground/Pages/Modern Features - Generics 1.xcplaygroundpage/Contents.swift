@@ -9,4 +9,6 @@ class PriorityQueue<Type> {
     func getHighestPriority() -> Type? {
         return queue.popLast()
     }
+    Int?
+    Int??
 }

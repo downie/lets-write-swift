@@ -3,8 +3,12 @@
 //:## Protocols
 struct NukaCola: Edible {
     var healthRestored: Double
-    func eat() {}
+    func  eat() {
+    }
+    mutating func drink() {
+        healthRestored += 0.3
+    }
 }
 
-let cola = NukaCola(healthRestored: 0.2)
-cola.eat()
+var cola = NukaCola(healthRestored: 0.2)
+cola.drink()

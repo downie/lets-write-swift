@@ -3,6 +3,6 @@
 //:## Closures
 let name = "Chris"
 let sayHello = { (to: String) in
-    return "Hello, \(name)"
+    "Hello, \(name)"
 }
 sayHello("Chris")

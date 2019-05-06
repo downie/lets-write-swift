@@ -8,4 +8,4 @@ extension Array where Element: Numeric {
 }
 
 let numberSum = [1, 2, 3].sum
-//let stringSum = ["1", "2", "3"].sum
+let stringSum = ["1", "2", "3"].sum
